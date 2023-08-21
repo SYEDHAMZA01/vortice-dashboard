@@ -3,21 +3,28 @@ document.addEventListener('DOMContentLoaded', function () {
         arrows: false,
         type: "loop",
         pagination: false,
-        perPage: 4,
+        perPage: 6,
         perMove: 1,
         focus: "center",
         gap: "50px",
         breakpoints: {
             1400: {
-                perPage: 3,
+                perPage: 5,
                 gap: "30px",
             },
             992: {
                 perPage: 2,
                 gap: "30px",
             },
+            768:{
+                perPage: 4,
+                gap: "30px",
+            },
             640: {
-                perPage: 1,
+                perPage: 3,
+            },
+            450: {
+                perPage: 2,
             },
         }
     });

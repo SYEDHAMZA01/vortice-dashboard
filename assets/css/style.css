@@ -385,6 +385,82 @@ a {
     letter-spacing: 0em;
 }
 
+/* available game card slider */
+
+.availabile-games-cards {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.availabile-games-card {
+    max-width: 120px;
+    height: 156.85px;
+    border-radius: 23px 8px 45px 8px;
+    overflow: hidden;
+}
+
+.availabile-games-slides{
+    margin: 25px auto 35px;
+}
+
+.availabile-games-card .availabile-games-card-bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.availabile-games-card-bg.card-bg-1 {
+    background-image: url(../images/COD\ Game.png);
+}
+
+.availabile-games-card-bg.card-bg-2 {
+    background-image: url(../images/e-football\ Game.png);
+}
+
+.availabile-games-card-bg.card-bg-3 {
+    background-image: url(../images/PUBG\ Game.png);
+}
+
+.availabile-games-card-bg.card-bg-4 {
+    background-image: url(../images/Fifa\ Game.png);
+}
+
+.availabile-games-card-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+}
+
+.availabile-games-card .card-details {
+    padding: 7px 6px 0;
+}
+
+.availabile-games-card .card-heading {
+    font-family: Montserrat;
+font-size: 7px;
+font-weight: 600;
+line-height: 9px;
+letter-spacing: 0em;
+}
+
+.availabile-games-card .card-sub-heading {
+    font-family: Montserrat;
+font-size: 6px;
+font-weight: 600;
+line-height: 7px;
+letter-spacing: 0em;
+}
+
+
 @media screen and (max-width: 1092px) {
     .navbar-collapse .input-group {
         max-width: 230px;
@@ -410,7 +486,7 @@ a {
         max-width: 10rem;
     }
     #content{
-        width: calc(100% - 19rem);
+        width: calc(100% - 28rem);
         margin: 10px auto;
     }
     .sidebar {
