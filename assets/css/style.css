@@ -1,0 +1,465 @@
+:root {
+    --color-1: #050509;
+    --color-2: #14171F;
+    --color-3: #151B28;
+    --color-4: #181C29;
+    --color-5: #424242;
+    --color-6: #141218;
+    --color-7: #BFBFCB;
+    --color-8: #1EBC26;
+    --color-9: #5CAB60;
+    --color-white: #ffffff;
+    --transparent: transparent;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    color: var(--color-white);
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.divider-right {
+    border-left: 0.73px solid #5e5c5c;
+}
+
+.btn-success {
+    background-color: var(--color-8);
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.btn-success:hover {
+    border-color: var(--color-8);
+    background-color: var(--color-8);
+    color: var(--color-white);
+    opacity: 0.8;
+}
+
+.btn-outline-success {
+    border-color: var(--color-8);
+    color: var(--color-8);
+}
+
+
+.btn-outline-success:hover {
+    border-color: var(--color-8);
+    background-color: var(--color-8);
+    color: var(--color-white);
+}
+
+.btn-outline-light {
+    border-color: var(--color-white);
+    color: var(--color-white);
+}
+
+.border-end {
+    border-color: var(--color-5) !important;
+}
+
+.border-bottom {
+    border-color: var(--color-5) !important;
+}
+
+.link {
+    color: var(--color-white);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-decoration: underline;
+}
+
+.direction-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.direction-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+
+/* navbar */
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #adb5bd73;
+    border-radius: 10px;
+}
+
+.bg-body-tertiary {
+    background-color: var(--color-6) !important;
+}
+
+.navbar-collapse .input-group {
+    max-width: 300px;
+    flex-wrap: nowrap;
+}
+
+.navbar-collapse .input-group .form-control {
+    border: 1px solid #CED4DA;
+    color: #CED4DA;
+    background-color: var(--color-4) !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    border-radius: 5px 0px 0px 5px;
+    padding: 8px 32px 8px 16px;
+}
+
+.navbar-collapse .input-group ::-webkit-input-placeholder {
+    color: #CED4DA;
+}
+
+.close-btn {
+    right: 10px;
+}
+
+.navbar .nav-link {
+    color: var(--color-7);
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding: 8px 15px !important;
+}
+
+.navbar .nav-item .btn {
+    padding: 4px 8px;
+}
+
+.navbar-brand {
+    max-width: auto;
+    width: 100%;
+}
+
+/* sidebar */
+
+#content {
+    margin-top: 10px;
+}
+
+
+.sidebar {
+    height: calc(100vh - 77px);
+    margin-top: 10px;
+    padding-top: 30px;
+    background: #141218;
+    transition: margin 0.25s ease-out;
+    box-shadow: 18px 0px 35px 0px #00000005;
+    overflow-y: auto;
+    position: fixed;
+}
+
+
+#sidebar-left .nav-item .nav-link {
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#sidebar-left .nav-item .nav-link .icon {
+    background: #212529;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#sidebar-left .nav-item .nav-link span,
+#sidebar-left .nav-item .nav-link span {
+    /* fill: #ADB5BD; */
+    color: #ADB5BD;
+}
+
+#sidebar-left .nav-item.active,
+#sidebar-left .nav-item .nav-link:hover {
+    background: #060413;
+}
+
+#sidebar-left .nav-item.active span,
+#sidebar-left .nav-item .nav-link:hover span,
+#sidebar-left .nav-item.active .nav-link span path,
+#sidebar-left .nav-item .nav-link:hover span path {
+    color: #51EF59;
+    fill: #51EF59;
+}
+
+/* right SideBAr */
+
+.card-item .title {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.card-item .card-head {
+    height: 44px;
+    padding: 0px 16px 0px 16px;
+    background-color: #14171F;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-item .card-list {
+    padding: 8px 12px 8px 12px;
+    background-color: var(--color-4);
+    border-bottom: 1px solid var(--color-5);
+}
+
+.card-item .card-list:last-child {
+    border-bottom: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.card-item .card-list span {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.card-item .card-list span:last-child {
+    color: #BFBFCB;
+}
+
+.card-item .card-list .btn {
+    padding: 4px 8px 4px 8px;
+    border-radius: 3;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+/* home */
+
+.banner {
+    margin-bottom: 30px;
+}
+
+.main-heading {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+.sub-heading {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+/* tournament card */
+
+.tournament-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    background-color: var(--color-2);
+    padding: 24px;
+}
+
+.tournament-card .tournament-time-table,
+.tournament-card .menu-title {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 8px;
+    letter-spacing: 0px;
+    color: #ADB5BD;
+}
+
+.tournament-card .tournament-game-name {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.tournament-card .menu-name {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.badge {
+    padding: 5px 7px;
+    border-radius: 3px;
+    background: #212529;
+    color: #495057;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 8px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.card-footer {
+    background-color: var(--color-4);
+}
+
+.card-footer  .profile-label,
+.tournament-card .card-footer .profile-name {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #6C757D;
+}
+
+.tournament-card .btn {
+    padding: 3px 6px;
+    border-radius: 2px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width: 1092px) {
+    .navbar-collapse .input-group {
+        max-width: 230px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .navbar-brand {
+        max-width: 17rem;
+    }
+
+    #content{
+        width: calc(100% - 36rem);
+        margin: 10px auto;
+    }
+    .sidebar {
+        width:18rem !important;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .navbar-brand {
+        max-width: 10rem;
+    }
+    #content{
+        width: calc(100% - 19rem);
+        margin: 10px auto;
+    }
+    .sidebar {
+        width: 14rem !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        border-radius: 8px;
+        top: 60px;
+        right: 3px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: var(--color-6);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 4.5rem !important;
+    }
+    #content{
+        width: calc(100% - 4.5rem);
+        margin: 10px 0 10px auto;
+    }
+
+    #sidebar-left .nav-item .nav-link {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .nav-item .nav-link {
+        padding: 8px !important;
+    }
+
+    .navbar-brand {
+        max-width: 7rem;
+    }
+
+    .navbar .nav-item .nav-link svg {
+        width: 20px;
+    }
+
+    /* .navbar-brand img {
+        width: 120px;
+    } */
+}
