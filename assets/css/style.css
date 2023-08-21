@@ -100,6 +100,14 @@ a {
     text-decoration: underline;
 }
 
+.form-select{
+    border: 1px solid #CED4DA;
+    color: #CED4DA;
+    background-color: var(--color-4) !important;
+    padding: 6px 12px 6px 12px;
+    --bs-form-select-bg-img: url(../images/arrow-down.svg);
+}
+
 .direction-row {
     display: flex;
     align-items: center;
@@ -315,7 +323,7 @@ a {
     align-items: stretch;
     gap: 15px;
     background-color: var(--color-2);
-    padding: 24px;
+    padding: 15px;
 }
 
 .tournament-card .tournament-time-table,

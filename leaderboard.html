@@ -255,7 +255,7 @@
                                 <span class="d-none d-md-inline-block">Home</span></a>
                         </li>
                         <!-- Nav Item - Tournament -->
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="./tournament.html">
                                 <span class="icon">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -289,7 +289,7 @@
                         </li>
                         <!-- Nav Item - leaderboard -->
                         <li class="nav-item">
-                            <a class="nav-link" href="./leaderboard.html">
+                            <a class="nav-link active" href="./leaderboard.html">
                                 <span class="icon">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -365,90 +365,32 @@
             <!-- sidebar Left end -->
 
             <!-- content start -->
-            <div id="content" class="tournament-page">
+            <div id="content" class="leaderboard-page">
                 <div class="container-fluid">
-
-                    <!-- main headings -->
-                    <div class="row align-items-center mb-4">
-                        <div class="col-12 d-flex">
-                            <div
-                                class="d-flex flex-column justify-content-start align-items-start gap-3 mb-4 mb-sm-0 pe-4">
-                                <h2 class="main-heading">Tournaments Games</h2>
-                                <h5 class="sub-heading">Choose your game</h5>
-                            </div>
-                        </div>
+                    <!-- banner -->
+                    <div class="banner">
+                        <img src="./assets/images/banner.png" alt="banner" class="img-fluid w-100">
                     </div>
-
-                    <!--availabile games slider -->
-                    <div class="splide availabile-games-slides" id="availabile-games-slides" aria-label="...">
-                        <div class="splide__track">
-                            <ul class="splide__list">
-                                <li class="splide__slide">
-                                    <div class="availabile-games-card position-relative mx-auto">
-                                        <div class="availabile-games-card-bg card-bg-1"></div>
-                                        <div class="availabile-games-card-body">
-                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
-                                                <img src="./assets/images/COD.png" alt="img" class="img-fluid">
-                                                <h4 class="card-heading">Call of Duty</h4>
-                                                <h5 class="card-sub-heading">17 Tournaments</h5>
-                                            </div>
-                                            <img src="./assets/images/COD-man.png" alt="img" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="availabile-games-card position-relative mx-auto">
-                                        <div class="availabile-games-card-bg card-bg-2"></div>
-                                        <div class="availabile-games-card-body">
-                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
-                                                <img src="./assets/images/e-football.png" alt="img" class="img-fluid">
-                                                <h4 class="card-heading">e-Football</h4>
-                                                <h5 class="card-sub-heading">27 Tournaments</h5>
-                                            </div>
-                                            <img src="./assets/images/e-football-man.png" alt="img" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="availabile-games-card position-relative mx-auto">
-                                        <div class="availabile-games-card-bg card-bg-3"></div>
-                                        <div class="availabile-games-card-body">
-                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
-                                                <img src="./assets/images/pubg.png" alt="img" class="img-fluid">
-                                                <h4 class="card-heading">PUBG Game</h4>
-                                                <h5 class="card-sub-heading">27 Tournaments</h5>
-                                            </div>
-                                            <img src="./assets/images/pubg-man.png" alt="img" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="availabile-games-card position-relative mx-auto">
-                                        <div class="availabile-games-card-bg card-bg-4"></div>
-                                        <div class="availabile-games-card-body">
-                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
-                                                <img src="./assets/images/Fifa.png" alt="img" class="img-fluid">
-                                                <h4 class="card-heading">Fifa 23 Game</h4>
-                                                <h5 class="card-sub-heading">27 Tournaments</h5>
-                                            </div>
-                                            <img src="./assets/images/Fifa-man.png" alt="img" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- slider end -->
-
                     <!-- main headings -->
-                    <div class="row align-items-center mb-4">
-                        <div class="col-12 d-flex">
-                            <div
-                                class="d-flex flex-column justify-content-start align-items-start gap-3 mb-4 mb-sm-0 pe-4">
-                                <h2 class="main-heading">Latest Tournaments</h2>
-                                <h5 class="sub-heading">You can join any tournament of your choice</h5>
-                            </div>
-                        </div>
+                    <div class="filter-bar d-flex align-items-center gap-3 mb-4">
+                        <select class="form-select w-auto">
+                            <option selected>XP</option>
+                            <option value="xp-1">XP 1</option>
+                            <option value="xp-2">XP 2</option>
+                            <option value="xp-3">XP 3</option>
+                        </select>
+                        <select class="form-select w-auto">
+                            <option selected>Games</option>
+                            <option value="games-1">Games 1</option>
+                            <option value="games-2">Games 2</option>
+                            <option value="games-3">Games 3</option>
+                        </select>
+                        <select class="form-select w-auto">
+                            <option selected>Teams</option>
+                            <option value="teams-1">Teams 1</option>
+                            <option value="teams-2">Teams 2</option>
+                            <option value="teams-3">Teams 3</option>
+                        </select>
                     </div>
                     <!--Tournaments cards -->
                     <div class="row row-cols-xxl-3 row-cols-xl-2 row-cals-sm-1 gy-4">
@@ -1202,9 +1144,8 @@
 
 
     <!-- scripts -->
-    <script src="./assets/js/index.js"></script>
+
     <script src="./assets/js/bootstrape/bootstrap.bundle.js"></script>
-    <script src="./assets/plugin/splide/splide.min.js"></script>
 
 </body>
 
