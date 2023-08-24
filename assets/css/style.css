@@ -100,12 +100,13 @@ a {
     text-decoration: underline;
 }
 
-.form-select{
+.form-select {
     border: 1px solid #CED4DA;
     color: #CED4DA;
     background-color: var(--color-4) !important;
     padding: 6px 12px 6px 12px;
-    --bs-form-select-bg-img: url(../images/arrow-down.svg);
+    background-image: url(../images/arrow-down.svg);
+    background-position: 95% 50% !important;
 }
 
 .direction-row {
@@ -120,13 +121,18 @@ a {
     justify-content: start;
 }
 
+.text-success {
+    color: var(--color-8);
+}
+
 
 
 /* navbar */
 
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
+    height: 6px;
 }
 
 /* Track */
@@ -373,7 +379,7 @@ a {
     background-color: var(--color-4);
 }
 
-.card-footer  .profile-label,
+.card-footer .profile-label,
 .tournament-card .card-footer .profile-name {
     font-family: Montserrat;
     font-size: 10px;
@@ -407,7 +413,7 @@ a {
     overflow: hidden;
 }
 
-.availabile-games-slides{
+.availabile-games-slides {
     margin: 25px auto 35px;
 }
 
@@ -454,20 +460,158 @@ a {
 
 .availabile-games-card .card-heading {
     font-family: Montserrat;
-font-size: 7px;
-font-weight: 600;
-line-height: 9px;
-letter-spacing: 0em;
+    font-size: 7px;
+    font-weight: 600;
+    line-height: 9px;
+    letter-spacing: 0em;
 }
 
 .availabile-games-card .card-sub-heading {
     font-family: Montserrat;
-font-size: 6px;
-font-weight: 600;
-line-height: 7px;
-letter-spacing: 0em;
+    font-size: 6px;
+    font-weight: 600;
+    line-height: 7px;
+    letter-spacing: 0em;
 }
 
+/* tabs */
+
+.tabs {
+    background-color: #141218;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.tabs .nav-link {
+    height: 48px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #ADB5BD;
+}
+
+.tabs .nav-link.active {
+    background: transparent;
+    color: #51EF59;
+    border-bottom: 2px solid #51EF59;
+    border-radius: 0px;
+}
+
+.tabs .table-header .value {
+    height: 40px;
+    padding: 0px 16px 0px 16px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+
+.tabs .table-header .value:nth-child(even) {
+    background-color: #3C3C3C;
+}
+
+.tabs .table-body .list-group-item {
+    height: 68px;
+    padding: 14px 16px 14px 16px;
+    background: #141218;
+    border: 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    min-width: 500px;
+}
+
+.tabs .table-body {
+    overflow-x: auto;
+}
+
+.tabs .table-body .list-group-item .serial-no .position-img {
+    width: 24px;
+}
+
+.tabs .table-body .list-group-item .profile img {
+    height: 40px;
+    width: 40px;
+}
+
+.tabs .table-body .list-group-item span {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.tabs .table-body .list-group-item:nth-child(even) {
+    background-color: #363636;
+}
+
+/* chats */
+
+.chats {
+    background-color: #141218;
+    padding: 16px;
+}
+
+.chat-top-bar {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #343A40;
+}
+
+.chats .chat-box{
+    height: calc(100vh - 275px);
+    overflow-y: auto;
+}
+
+.chats .other-msg p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;    
+    min-width: 179px;
+    height: 37px;
+    padding: 8px;
+    border-radius: 8px;
+    background: #1D1B20;
+    margin-right: auto;
+}
+
+.chats .input-group{
+    background: #1D1B20;
+    height: 52px;
+}
+
+.chats .my-msg p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    width: 300px;
+    height: 61px;
+    padding: 8px;
+    border-radius: 8px;
+    background: #178D1D;
+    margin-left: auto;
+}
+
+.chats span {
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+}
 
 @media screen and (max-width: 1092px) {
     .navbar-collapse .input-group {
@@ -480,12 +624,13 @@ letter-spacing: 0em;
         max-width: 17rem;
     }
 
-    #content{
+    #content {
         width: calc(100% - 36rem);
         margin: 10px auto;
     }
+
     .sidebar {
-        width:18rem !important;
+        width: 18rem !important;
     }
 }
 
@@ -493,10 +638,12 @@ letter-spacing: 0em;
     .navbar-brand {
         max-width: 10rem;
     }
-    #content{
+
+    #content {
         width: calc(100% - 28rem);
         margin: 10px auto;
     }
+
     .sidebar {
         width: 14rem !important;
     }
@@ -520,7 +667,8 @@ letter-spacing: 0em;
     .sidebar {
         width: 4.5rem !important;
     }
-    #content{
+
+    #content {
         width: calc(100% - 4.5rem);
         margin: 10px 0 10px auto;
     }
