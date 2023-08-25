@@ -269,7 +269,7 @@
                         </li>
 
                         <!-- Nav Item - Challenge -->
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="./challenge.html">
                                 <span class="icon">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -323,7 +323,7 @@
                         </li>
 
                         <!-- Nav Item - Profile -->
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="./profile.html">
                                 <span class="icon">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -365,283 +365,516 @@
             <!-- sidebar Left end -->
 
             <!-- content start -->
-            <div id="content" class="profile-page">
+            <div id="content" class="chellenge-3-page">
                 <div class="container-fluid">
-                    <!-- banner -->
-                    <div class="banner position-relative mb-0">
-                        <img src="./assets/images/Hero Image.png" alt="banner" class="img-fluid w-100">
-                        <img src="./assets/images/pencil-square.png" alt="edit"
-                            class="img-fluid position-absolute top-0 end-0 mt-2 m-3">
+
+                    <!-- main headings -->
+                    <div class="row align-items-center mb-4">
+                        <div class="col-12 d-flex">
+                            <div
+                                class="d-flex flex-column justify-content-start align-items-start gap-3 mb-4 mb-sm-0 pe-4">
+                                <h2 class="main-heading">Challenge Games</h2>
+                                <h5 class="sub-heading">Choose your game</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="direction-column gap-5 p-3 p-md-4 profile-content">
-                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
-                            <div class="direction-row gap-3">
-                                <img src="./assets/images/profile-main.png" alt="profile" class="img-fluid rounded-circle">
-                                <div class="direction-column gap-1">
-                                    <h4 class="user-name">Olamide Ola</h4>
-                                    <span class="user-type">@odsgamer</span>
-                                </div>
-                            </div>
-                            <div class="direction-row gap-3 flex-grow-1 justify-content-between">
-                                <a href="#" class="btn btn-outline-success">Create team</a>
-                                <a href="#" class="btn btn-success">Manage team</a>
-                                <div class="dropdown">
-                                    <button class="btn p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M19 26C19 26.7956 18.6839 27.5587 18.1213 28.1213C17.5587 28.6839 16.7956 29 16 29C15.2044 29 14.4413 28.6839 13.8787 28.1213C13.3161 27.5587 13 26.7956 13 26C13 25.2044 13.3161 24.4413 13.8787 23.8787C14.4413 23.3161 15.2044 23 16 23C16.7956 23 17.5587 23.3161 18.1213 23.8787C18.6839 24.4413 19 25.2044 19 26ZM19 16C19 16.7956 18.6839 17.5587 18.1213 18.1213C17.5587 18.6839 16.7956 19 16 19C15.2044 19 14.4413 18.6839 13.8787 18.1213C13.3161 17.5587 13 16.7956 13 16C13 15.2044 13.3161 14.4413 13.8787 13.8787C14.4413 13.3161 15.2044 13 16 13C16.7956 13 17.5587 13.3161 18.1213 13.8787C18.6839 14.4413 19 15.2044 19 16ZM19 6C19 6.79565 18.6839 7.55871 18.1213 8.12132C17.5587 8.68393 16.7956 9 16 9C15.2044 9 14.4413 8.68393 13.8787 8.12132C13.3161 7.55871 13 6.79565 13 6C13 5.20435 13.3161 4.44129 13.8787 3.87868C14.4413 3.31607 15.2044 3 16 3C16.7956 3 17.5587 3.31607 18.1213 3.87868C18.6839 4.44129 19 5.20435 19 6Z"
-                                                fill="white" />
-                                        </svg>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Action two</a></li>
-                                        <li><a class="dropdown-item" href="#">Action three</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
-                            <div class="direction-column gap-3">
-                                <div class="direction-row justify-content-start gap-4">
-                                    <h4 class="user-name w-auto">Game ID</h4>
-                                    <a href="#"><img src="./assets/images/pencil-fill.png" alt="edit" class="img-fluid"></a>
-                                </div>
-                                <div class="direction-row gap-2 flex-wrap">
-                                    <div class="badge-light">
-                                        <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M15.9907 6.4469C15.9907 8.04856 15.9905 9.65046 15.9912 11.2521C15.9912 11.3882 15.9962 11.5244 15.9999 11.6605C16.0028 11.7665 15.9531 11.8393 15.8641 11.8998C15.3712 12.2344 14.8801 12.5716 14.3898 12.9098C14.2238 13.0242 14.1958 13.03 14.0251 12.9261C13.3757 12.531 12.7275 12.1342 12.0783 11.7388C11.9981 11.69 11.9177 11.64 11.8324 11.6004C11.6871 11.5328 11.6354 11.4228 11.6372 11.2711C11.6466 10.4304 11.6565 9.58941 11.6577 8.74868C11.6614 6.45819 11.6659 4.1677 11.6552 1.87721C11.654 1.6138 11.7391 1.46598 11.9667 1.32995C12.6194 0.940348 13.2557 0.525031 13.8984 0.119809C13.9432 0.0914486 13.99 0.0657316 14.034 0.0364095C14.1164 -0.0179085 14.1921 -0.00781401 14.2747 0.0426585C14.8121 0.370009 15.3507 0.695676 15.8905 1.01942C15.9811 1.07374 16.0006 1.15353 15.9996 1.24535C15.9972 1.49747 15.9915 1.74983 15.9912 2.00195C15.9905 3.48368 15.9907 4.96517 15.9907 6.4469C15.9912 6.4469 15.9907 6.4469 15.9907 6.4469Z" fill="#F8F9FA"/>
-                                            <path d="M4.25206 6.51285C4.25206 7.98665 4.25156 9.46045 4.2528 10.9342C4.25305 11.0943 4.26146 11.2544 4.26962 11.4142C4.27531 11.5253 4.2335 11.6022 4.13157 11.6603C3.41732 12.0677 2.70282 12.4746 1.99451 12.8914C1.83939 12.9827 1.72583 12.9704 1.5811 12.8729C1.13107 12.5693 0.673623 12.2756 0.214443 11.9853C0.103359 11.9151 0.039282 11.8331 0.0387872 11.7048C0.038045 11.4967 0.0353236 11.2885 0.0353236 11.0804C0.035571 8.73749 0.038045 6.3946 0.0360658 4.05172C0.0353236 3.26315 0.0241905 2.47457 0.0162736 1.686C0.0147892 1.53795 0.00588265 1.39013 0.000192382 1.24208C-0.00302386 1.15436 0.0340866 1.09163 0.111524 1.04284C0.633544 0.713803 1.15383 0.382848 1.67412 0.051412C1.76739 -0.00795328 1.85497 -0.00795327 1.95022 0.050691C2.69119 0.507107 3.43266 0.962801 4.17611 1.41561C4.25329 1.46272 4.26047 1.52353 4.26022 1.59875C4.25626 2.74809 4.2533 3.89766 4.25082 5.04699C4.24983 5.53561 4.25057 6.02423 4.25057 6.51285C4.25107 6.51285 4.25156 6.51285 4.25206 6.51285Z" fill="#F8F9FA"/>
-                                            <path d="M5.3049 1.98487C5.39693 2.03222 5.46843 2.06827 5.53943 2.10528C6.17823 2.43864 6.81702 2.77224 7.45582 3.10584C7.5429 3.15127 7.62974 3.19741 7.71658 3.24332C7.83162 3.30413 7.94444 3.29547 8.05973 3.24067C8.87739 2.85155 9.6958 2.46316 10.514 2.075C10.6518 2.00963 10.6839 2.02813 10.6862 2.17114C10.7154 4.10928 10.7445 6.04767 10.7737 7.98581C10.7762 8.14588 10.7777 8.30619 10.7817 8.46626C10.7844 8.57442 10.7339 8.64363 10.6372 8.69651C9.8393 9.1313 9.04192 9.56704 8.24751 10.0078C8.1149 10.0814 8.00555 10.0857 7.86873 10.0117C7.10574 9.59877 6.34003 9.19018 5.57011 8.78952C5.41029 8.70636 5.3472 8.6023 5.34745 8.42925C5.34819 7.508 5.34225 6.58676 5.33533 5.66552C5.32692 4.54815 5.31529 3.43079 5.30514 2.31318C5.30415 2.21464 5.3049 2.1161 5.3049 1.98487Z" fill="#F8F9FA"/>
-                                            </svg>                                            
-                                       <span>ODSkiller</span>
-                                    </div>
-                                    <div class="badge-light">
-                                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0.602539 3.80027C0.933614 3.03192 1.43158 2.39595 2.02996 1.83777C3.04083 0.896103 4.23487 0.342019 5.6053 0.191897C8.75187 -0.153382 11.1481 1.8214 12.0002 3.79481C11.9541 3.80436 11.9107 3.82074 11.8672 3.8221C11.0545 3.82756 10.2404 3.82893 9.42759 3.83439C9.31633 3.83575 9.24034 3.78935 9.163 3.71156C8.43029 2.97187 7.55105 2.55426 6.50897 2.5024C5.44519 2.44918 4.51031 2.78354 3.69891 3.47273C3.60121 3.55598 3.50894 3.64605 3.41939 3.73886C3.36512 3.79617 3.30813 3.83029 3.22536 3.83029C2.37868 3.82756 1.53063 3.82756 0.683951 3.8262C0.666312 3.82483 0.647316 3.81392 0.602539 3.80027Z" fill="#F8F9FA"/>
-                                            <path d="M11.9932 9.19538C11.3148 10.8836 9.24147 12.7628 6.5196 12.8447C3.52772 12.9361 1.34588 10.9545 0.624023 9.21039C0.683726 9.20083 0.740714 9.18446 0.796345 9.18446C1.5969 9.18036 2.39609 9.18036 3.19664 9.17627C3.29976 9.17627 3.37439 9.21312 3.4463 9.28545C4.32962 10.1807 5.40426 10.5833 6.64851 10.4919C7.42192 10.4359 8.12206 10.1493 8.73808 9.6703C8.88733 9.5543 9.03387 9.43011 9.16549 9.29364C9.23876 9.21721 9.31067 9.18173 9.41244 9.18173C9.63632 9.18173 9.8602 9.179 10.0841 9.17763C10.6133 9.17627 11.1424 9.17627 11.6703 9.17627C11.7761 9.18036 11.8819 9.18992 11.9932 9.19538Z" fill="#F8F9FA"/>
-                                            <path d="M0.116364 5.35632C0.192349 5.35086 0.272404 5.34131 0.352459 5.34131C2.42032 5.34131 4.48818 5.34131 6.55605 5.34404C7.66189 5.3454 8.76638 5.35223 9.87222 5.35632C10.1355 5.35769 10.13 5.35769 10.1857 5.61562C10.3173 6.22566 10.3064 6.83297 10.1789 7.44164C10.1341 7.65864 10.1246 7.66955 9.898 7.66819C8.65783 7.66273 7.4163 7.65045 6.17612 7.64908C4.52211 7.64772 2.86673 7.65181 1.21271 7.65591C0.893848 7.65591 0.574984 7.66137 0.257478 7.66683C0.15707 7.66819 0.0919405 7.64226 0.0756581 7.52626C-0.0247499 6.83297 -0.0288205 6.14105 0.0851562 5.44912C0.086513 5.42183 0.100082 5.39863 0.116364 5.35632Z" fill="#F8F9FA"/>
-                                            </svg>                                            
-                                       <span>ODSballer</span>
-                                    </div>
-                                    <div class="badge-light">
-                                        <img src="./assets/images/pubg-logo.png" class="img-fluid">
-                                        <span>ODSkiller</span></div>
-                                </div>
-                            </div>
-                            <div class="direction-row gap-3">
-                                <a href="#" class="btn btn-outline-success">Manage wallet</a>
-                            </div>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
-                            <div class="direction-column gap-3">
-                                <div class="direction-row justify-content-start gap-4">
-                                    <h4 class="user-name w-auto">Your socials</h4>
-                                    <a href="#"><img src="./assets/images/pencil-fill.png" alt="edit" class="img-fluid"></a>
-                                </div>
-                                <div class="direction-column gap-4">
-                                    <div class="social-icons direction-row gap-3 flex-wrap">
-                                        <div class="social-icon">
-                                            <img src="./assets/images/twitter.png" alt="icon" class="img-fluid">                                            
-                                           <span>Twitter</span>
+                    <!--availabile games slider -->
+                    <div class="splide availabile-games-slides" id="availabile-games-slides" aria-label="...">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="availabile-games-card position-relative mx-auto">
+                                        <div class="availabile-games-card-bg card-bg-1"></div>
+                                        <div class="availabile-games-card-body">
+                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
+                                                <img src="./assets/images/COD.png" alt="img" class="img-fluid">
+                                                <h4 class="card-heading">Call of Duty</h4>
+                                                <h5 class="card-sub-heading">17 Tournaments</h5>
+                                            </div>
+                                            <img src="./assets/images/COD-man.png" alt="img" class="img-fluid">
                                         </div>
-                                        <div class="social-icon">
-                                            <img src="./assets/images/instagram.png" class="img-fluid">
-                                            <span>Instagram</span></div>
                                     </div>
-                                    <div class="social-icons direction-row gap-3 flex-wrap">
-                                        <div class="social-icon">
-                                            <img src="./assets/images/facebook.png" alt="icon" class="img-fluid">                                            
-                                           <span>Facebook</span>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="availabile-games-card position-relative mx-auto">
+                                        <div class="availabile-games-card-bg card-bg-2"></div>
+                                        <div class="availabile-games-card-body">
+                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
+                                                <img src="./assets/images/e-football.png" alt="img" class="img-fluid">
+                                                <h4 class="card-heading">e-Football</h4>
+                                                <h5 class="card-sub-heading">27 Tournaments</h5>
+                                            </div>
+                                            <img src="./assets/images/e-football-man.png" alt="img" class="img-fluid">
                                         </div>
-                                        <div class="social-icon">
-                                            <img src="./assets/images/linkedIn.png" class="img-fluid">
-                                            <span>LinkedIn</span></div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="about direction-column gap-2">
-                                <div class="direction-row justify-content-start gap-3 following">
-                                    <h4 class="follow-title">346 Followers</h4>
-                                    <h4 class="follow-title">24 Followers</h4>
-                                </div>
-                                <div class="direction-row gap-2">
-                                    <h4 class="about-title">ABOUT ME</h4>
-                                    <a href="#">
-                                        <img src="./assets/images/pencil-fill.png" class="img-fluid">
-                                    </a>
-                                </div>
-                                <p class="about-desc">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                                </p>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="availabile-games-card position-relative mx-auto">
+                                        <div class="availabile-games-card-bg card-bg-3"></div>
+                                        <div class="availabile-games-card-body">
+                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
+                                                <img src="./assets/images/pubg.png" alt="img" class="img-fluid">
+                                                <h4 class="card-heading">PUBG Game</h4>
+                                                <h5 class="card-sub-heading">27 Tournaments</h5>
+                                            </div>
+                                            <img src="./assets/images/pubg-man.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="availabile-games-card position-relative mx-auto">
+                                        <div class="availabile-games-card-bg card-bg-4"></div>
+                                        <div class="availabile-games-card-body">
+                                            <div class="card-details d-flex flex-column gap-1 align-items-center">
+                                                <img src="./assets/images/Fifa.png" alt="img" class="img-fluid">
+                                                <h4 class="card-heading">Fifa 23 Game</h4>
+                                                <h5 class="card-sub-heading">27 Tournaments</h5>
+                                            </div>
+                                            <img src="./assets/images/Fifa-man.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- slider end -->
 
+                     <!-- main headings -->
+                     <div class="row align-items-center mb-4">
+                        <div class="col-sm-8 d-flex">
+                            <div class="d-flex flex-column justify-content-start align-items-start gap-2 mb-4 mb-sm-0 pe-4">
+                                <h2 class="main-heading">Public Challenge</h2>
+                                <h5 class="sub-heading">You can join any challenge of your choice</h5>
                             </div>
                         </div>
-                    </div> 
-                    <div class="info-tabs tabs w-100">
-                        <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-personal-info-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-personal-info" type="button" role="tab"
-                                    aria-controls="pills-personal-info" aria-selected="true">Personal Info</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-teams-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-teams" type="button" role="tab"
-                                    aria-controls="pills-teams" aria-selected="false">Teams</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-games-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-games" type="button" role="tab"
-                                    aria-controls="pills-games" aria-selected="false">Games</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-achievement-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-achievement" type="button" role="tab"
-                                    aria-controls="pills-achievement" aria-selected="false">Achievement</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <!-- tab 1 -->
-                            <div class="tab-pane fade show active" id="pills-personal-info" role="tabpanel"
-                                aria-labelledby="pills-personal-info-tab" tabindex="0">
-                                <div class="row row-cols-sm-2 row-cols-1">
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="name" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Enter Name" value="Olamide">
-                                          </div>
+                        <div class="col-sm-4 text-center text-sm-end">
+                            <div class="btn btn-outline-success">Create Challenge</div>
+                        </div>
+                    </div>
+                    <!--Tournaments cards -->
+                    <div class="row row-cols-xxl-3 row-cols-xl-2 row-cals-sm-1 gy-4">
+                        <!-- tournament-card 1 -->
+                        <div class="col">
+                            <div class="tournament-card position-relative card bg-transparent border-0 rounded-4 overflow-hidden">
+                                <div class="top-bar w-100 text-center">
+                                    <span class="ribbon">Entry fee | N10,000</span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <img src="./assets/images/Badges-1.png" alt="img" class="img-fluid">
+                                        <div class="d-flex flex-column gap-2">
+                                            <p class="tournament-time-table">AUG 20 - Ending at 6:00 AM</p>
+                                            <h3 class="tournament-game-name">Call of Duty : Knockout 2023</h3>
+                                            <div class="d-flex gap-2">
+                                                <span class="badge">COD WarZone</span>
+                                                <span class="badge">Mobile</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="display-name" class="form-label">Display Name</label>
-                                            <input type="text" class="form-control" id="display-name" placeholder="Enter Display Name" value="ODSGAMER">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="username" class="form-label">Username</label>
-                                            <input type="text" class="form-control" id="username" placeholder="Enter username" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="email" placeholder="Enter email" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <a href="#" class="btn btn-success">Submit</a>
-                                    </div>
-                                </div>                                
-                            </div>
-
-                            <!-- tab 2 -->
-                            <div class="tab-pane fade" id="pills-teams" role="tabpanel"
-                                aria-labelledby="pills-teams-tab" tabindex="0">
-                                <div class="row row-cols-sm-2 row-cols-1">
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="name" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Enter Name" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="display-name" class="form-label">Display Name</label>
-                                            <input type="text" class="form-control" id="display-name" placeholder="Enter Display Name" value="ODSGAMER">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="username" class="form-label">Username</label>
-                                            <input type="text" class="form-control" id="username" placeholder="Enter username" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="email" placeholder="Enter email" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <a href="#" class="btn btn-success">Submit</a>
+                                    <div class="tournament-menu d-flex justify-content-center gap-4">
+                                        <div class="menu-items">
+                                            <p class="menu-title">Prize Pool</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_202_5300)">
+                                                        <path d="M4.64939 1.58207C4.64939 1.34179 4.74484 1.11135 4.91474 0.941443C5.08465 0.771538 5.31509 0.676086 5.55537 0.676086H23.675C23.9153 0.676086 24.1458 0.771538 24.3157 0.941443C24.4856 1.11135 24.581 1.34179 24.581 1.58207C24.581 2.55691 24.5593 3.48463 24.5194 4.36525C25.2354 4.48381 25.9203 4.74453 26.5339 5.13204C27.1475 5.51955 27.6773 6.026 28.0921 6.62152C28.5068 7.21705 28.7981 7.8896 28.9488 8.5995C29.0995 9.3094 29.1065 10.0423 28.9694 10.7549C28.8323 11.4676 28.5539 12.1456 28.1506 12.7489C27.7473 13.3523 27.2273 13.8687 26.6212 14.2679C26.0151 14.6671 25.3353 14.9408 24.6217 15.073C23.9081 15.2053 23.1753 15.1932 22.4664 15.0377C21.035 18.417 19.0636 20.0696 17.3331 20.4936V24.431L19.9152 25.076C20.2667 25.163 20.5983 25.3206 20.8882 25.5381L24.2186 28.0368C24.3707 28.1509 24.4831 28.3099 24.5398 28.4914C24.5965 28.6729 24.5946 28.8677 24.5345 29.0481C24.4744 29.2284 24.359 29.3853 24.2048 29.4965C24.0505 29.6077 23.8652 29.6675 23.675 29.6675H5.55537C5.36522 29.6675 5.17989 29.6077 5.02563 29.4965C4.87138 29.3853 4.75601 29.2284 4.69588 29.0481C4.63575 28.8677 4.6339 28.6729 4.6906 28.4914C4.74729 28.3099 4.85966 28.1509 5.01178 28.0368L8.34217 25.5381C8.63209 25.3206 8.96368 25.163 9.3152 25.076L11.8973 24.431V20.4936C10.1668 20.0696 8.19541 18.417 6.76395 15.0359C6.05472 15.1923 5.32135 15.2049 4.60715 15.0731C3.89295 14.9413 3.2124 14.6678 2.60569 14.2686C1.99899 13.8694 1.47843 13.3526 1.07475 12.7489C0.67108 12.1452 0.392481 11.4667 0.25541 10.7534C0.118338 10.0402 0.125574 9.3068 0.276689 8.59643C0.427804 7.88607 0.719735 7.21319 1.13524 6.61753C1.55075 6.02187 2.0814 5.51552 2.69586 5.12836C3.31033 4.74121 3.99614 4.48112 4.71281 4.36344C4.67015 3.43693 4.649 2.50956 4.64939 1.58207ZM4.82877 6.18446C3.88326 6.35746 3.04521 6.89898 2.49896 7.68989C1.95272 8.4808 1.74303 9.4563 1.91604 10.4018C2.08904 11.3473 2.63056 12.1854 3.42147 12.7316C4.21237 13.2779 5.18788 13.4875 6.13339 13.3145C5.53 11.412 5.06795 9.06368 4.82877 6.18446ZM23.0988 13.3145C24.0443 13.4875 25.0198 13.2779 25.8107 12.7316C26.6017 12.1854 27.1432 11.3473 27.3162 10.4018C27.4892 9.4563 27.2795 8.4808 26.7332 7.68989C26.187 6.89898 25.3489 6.35746 24.4034 6.18446C24.1624 9.06549 23.7004 11.412 23.0988 13.3145Z" fill="#E9ECEF"></path>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_5300">
+                                                            <rect width="28.9915" height="28.9915" fill="white" transform="translate(0.119629 0.676086)"></rect>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                NGN100K
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Team Size</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.79488 26.0879C5.79488 26.0879 3.98291 26.0879 3.98291 24.276C3.98291 22.464 5.79488 17.0281 14.8547 17.0281C23.9145 17.0281 25.7265 22.464 25.7265 24.276C25.7265 26.0879 23.9145 26.0879 23.9145 26.0879H5.79488ZM14.8547 15.2162C16.2964 15.2162 17.679 14.6434 18.6985 13.624C19.7179 12.6046 20.2906 11.2219 20.2906 9.78026C20.2906 8.33857 19.7179 6.95593 18.6985 5.9365C17.679 4.91707 16.2964 4.34436 14.8547 4.34436C13.413 4.34436 12.0304 4.91707 11.0109 5.9365C9.99152 6.95593 9.41881 8.33857 9.41881 9.78026C9.41881 11.2219 9.99152 12.6046 11.0109 13.624C12.0304 14.6434 13.413 15.2162 14.8547 15.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+                                                3VS3
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Participants</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0426 22.0879C13.0426 22.0879 11.2307 22.0879 11.2307 20.276C11.2307 18.464 13.0426 13.0281 20.2905 13.0281C27.5384 13.0281 29.3503 18.464 29.3503 20.276C29.3503 22.0879 27.5384 22.0879 27.5384 22.0879H13.0426ZM20.2905 11.2162C21.7322 11.2162 23.1148 10.6434 24.1343 9.62402C25.1537 8.60459 25.7264 7.22195 25.7264 5.78026C25.7264 4.33857 25.1537 2.95593 24.1343 1.9365C23.1148 0.917069 21.7322 0.34436 20.2905 0.34436C18.8488 0.34436 17.4662 0.917069 16.4467 1.9365C15.4273 2.95593 14.8546 4.33857 14.8546 5.78026C14.8546 7.22195 15.4273 8.60459 16.4467 9.62402C17.4662 10.6434 18.8488 11.2162 20.2905 11.2162Z" fill="#E9ECEF"></path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.8101 22.0879C9.54149 21.5223 9.40752 20.9021 9.41872 20.276C9.41872 17.8208 10.6509 15.2931 12.9267 13.5355C11.7907 13.1855 10.6073 13.0143 9.41872 13.0281C2.17085 13.0281 0.358887 18.464 0.358887 20.276C0.358887 22.0879 2.17085 22.0879 2.17085 22.0879H9.8101Z" fill="#E9ECEF"></path>
+                                                    <path d="M8.51273 11.2162C9.71414 11.2162 10.8663 10.7389 11.7159 9.88937C12.5654 9.03985 13.0426 7.88765 13.0426 6.68624C13.0426 5.48483 12.5654 4.33263 11.7159 3.48311C10.8663 2.63358 9.71414 2.15633 8.51273 2.15633C7.31132 2.15633 6.15912 2.63358 5.3096 3.48311C4.46008 4.33263 3.98282 5.48483 3.98282 6.68624C3.98282 7.88765 4.46008 9.03985 5.3096 9.88937C6.15912 10.7389 7.31132 11.2162 8.51273 11.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+    
+                                                48/128
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <!-- tab 3 -->
-                            <div class="tab-pane fade" id="pills-games" role="tabpanel"
-                                aria-labelledby="pills-games-tab" tabindex="0">
-                                <div class="row row-cols-sm-2 row-cols-1">
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="name" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Enter Name" value="Olamide">
-                                          </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <div class="card-profile d-flex justify-content-between align-items-center gap-2">
+                                        <img src="./assets/images/profile.png" alt="img" class="img-fluid rounded-circle">
+                                        <div class="d-flex flex-column gap-1">
+                                            <p class="profile-label">Organized by</p>
+                                            <h6 class="profile-name fw-bolder text-white">ODSGAMER</h6>
+                                        </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="display-name" class="form-label">Display Name</label>
-                                            <input type="text" class="form-control" id="display-name" placeholder="Enter Display Name" value="ODSGAMER">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="username" class="form-label">Username</label>
-                                            <input type="text" class="form-control" id="username" placeholder="Enter username" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="email" placeholder="Enter email" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <a href="#" class="btn btn-success">Submit</a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- tab 4 -->
-                            <div class="tab-pane fade" id="pills-achievement" role="tabpanel"
-                                aria-labelledby="pills-achievement-tab" tabindex="0">
-                                <div class="row row-cols-sm-2 row-cols-1">
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="name" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Enter Name" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="display-name" class="form-label">Display Name</label>
-                                            <input type="text" class="form-control" id="display-name" placeholder="Enter Display Name" value="ODSGAMER">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="username" class="form-label">Username</label>
-                                            <input type="text" class="form-control" id="username" placeholder="Enter username" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mb-4">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="email" placeholder="Enter email" value="Olamide">
-                                          </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <a href="#" class="btn btn-success">Submit</a>
-                                    </div>
+                                    <a href="#" class="btn btn-success">View Challenge</a>
                                 </div>
                             </div>
                         </div>
-                    </div>                   
+                        <!-- tournament-card 2 -->
+                        <div class="col">
+                            <div class="tournament-card position-relative card bg-transparent border-0 rounded-4 overflow-hidden">
+                                <div class="top-bar w-100 text-center">
+                                    <span class="ribbon">Entry fee | N10,000</span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <img src="./assets/images/Badges-1.png" alt="img" class="img-fluid">
+                                        <div class="d-flex flex-column gap-2">
+                                            <p class="tournament-time-table">AUG 20 - Ending at 6:00 AM</p>
+                                            <h3 class="tournament-game-name">Call of Duty : Knockout 2023</h3>
+                                            <div class="d-flex gap-2">
+                                                <span class="badge">COD WarZone</span>
+                                                <span class="badge">Mobile</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tournament-menu d-flex justify-content-center gap-4">
+                                        <div class="menu-items">
+                                            <p class="menu-title">Prize Pool</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_202_5300)">
+                                                        <path d="M4.64939 1.58207C4.64939 1.34179 4.74484 1.11135 4.91474 0.941443C5.08465 0.771538 5.31509 0.676086 5.55537 0.676086H23.675C23.9153 0.676086 24.1458 0.771538 24.3157 0.941443C24.4856 1.11135 24.581 1.34179 24.581 1.58207C24.581 2.55691 24.5593 3.48463 24.5194 4.36525C25.2354 4.48381 25.9203 4.74453 26.5339 5.13204C27.1475 5.51955 27.6773 6.026 28.0921 6.62152C28.5068 7.21705 28.7981 7.8896 28.9488 8.5995C29.0995 9.3094 29.1065 10.0423 28.9694 10.7549C28.8323 11.4676 28.5539 12.1456 28.1506 12.7489C27.7473 13.3523 27.2273 13.8687 26.6212 14.2679C26.0151 14.6671 25.3353 14.9408 24.6217 15.073C23.9081 15.2053 23.1753 15.1932 22.4664 15.0377C21.035 18.417 19.0636 20.0696 17.3331 20.4936V24.431L19.9152 25.076C20.2667 25.163 20.5983 25.3206 20.8882 25.5381L24.2186 28.0368C24.3707 28.1509 24.4831 28.3099 24.5398 28.4914C24.5965 28.6729 24.5946 28.8677 24.5345 29.0481C24.4744 29.2284 24.359 29.3853 24.2048 29.4965C24.0505 29.6077 23.8652 29.6675 23.675 29.6675H5.55537C5.36522 29.6675 5.17989 29.6077 5.02563 29.4965C4.87138 29.3853 4.75601 29.2284 4.69588 29.0481C4.63575 28.8677 4.6339 28.6729 4.6906 28.4914C4.74729 28.3099 4.85966 28.1509 5.01178 28.0368L8.34217 25.5381C8.63209 25.3206 8.96368 25.163 9.3152 25.076L11.8973 24.431V20.4936C10.1668 20.0696 8.19541 18.417 6.76395 15.0359C6.05472 15.1923 5.32135 15.2049 4.60715 15.0731C3.89295 14.9413 3.2124 14.6678 2.60569 14.2686C1.99899 13.8694 1.47843 13.3526 1.07475 12.7489C0.67108 12.1452 0.392481 11.4667 0.25541 10.7534C0.118338 10.0402 0.125574 9.3068 0.276689 8.59643C0.427804 7.88607 0.719735 7.21319 1.13524 6.61753C1.55075 6.02187 2.0814 5.51552 2.69586 5.12836C3.31033 4.74121 3.99614 4.48112 4.71281 4.36344C4.67015 3.43693 4.649 2.50956 4.64939 1.58207ZM4.82877 6.18446C3.88326 6.35746 3.04521 6.89898 2.49896 7.68989C1.95272 8.4808 1.74303 9.4563 1.91604 10.4018C2.08904 11.3473 2.63056 12.1854 3.42147 12.7316C4.21237 13.2779 5.18788 13.4875 6.13339 13.3145C5.53 11.412 5.06795 9.06368 4.82877 6.18446ZM23.0988 13.3145C24.0443 13.4875 25.0198 13.2779 25.8107 12.7316C26.6017 12.1854 27.1432 11.3473 27.3162 10.4018C27.4892 9.4563 27.2795 8.4808 26.7332 7.68989C26.187 6.89898 25.3489 6.35746 24.4034 6.18446C24.1624 9.06549 23.7004 11.412 23.0988 13.3145Z" fill="#E9ECEF"></path>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_5300">
+                                                            <rect width="28.9915" height="28.9915" fill="white" transform="translate(0.119629 0.676086)"></rect>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                NGN100K
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Team Size</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.79488 26.0879C5.79488 26.0879 3.98291 26.0879 3.98291 24.276C3.98291 22.464 5.79488 17.0281 14.8547 17.0281C23.9145 17.0281 25.7265 22.464 25.7265 24.276C25.7265 26.0879 23.9145 26.0879 23.9145 26.0879H5.79488ZM14.8547 15.2162C16.2964 15.2162 17.679 14.6434 18.6985 13.624C19.7179 12.6046 20.2906 11.2219 20.2906 9.78026C20.2906 8.33857 19.7179 6.95593 18.6985 5.9365C17.679 4.91707 16.2964 4.34436 14.8547 4.34436C13.413 4.34436 12.0304 4.91707 11.0109 5.9365C9.99152 6.95593 9.41881 8.33857 9.41881 9.78026C9.41881 11.2219 9.99152 12.6046 11.0109 13.624C12.0304 14.6434 13.413 15.2162 14.8547 15.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+                                                3VS3
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Participants</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0426 22.0879C13.0426 22.0879 11.2307 22.0879 11.2307 20.276C11.2307 18.464 13.0426 13.0281 20.2905 13.0281C27.5384 13.0281 29.3503 18.464 29.3503 20.276C29.3503 22.0879 27.5384 22.0879 27.5384 22.0879H13.0426ZM20.2905 11.2162C21.7322 11.2162 23.1148 10.6434 24.1343 9.62402C25.1537 8.60459 25.7264 7.22195 25.7264 5.78026C25.7264 4.33857 25.1537 2.95593 24.1343 1.9365C23.1148 0.917069 21.7322 0.34436 20.2905 0.34436C18.8488 0.34436 17.4662 0.917069 16.4467 1.9365C15.4273 2.95593 14.8546 4.33857 14.8546 5.78026C14.8546 7.22195 15.4273 8.60459 16.4467 9.62402C17.4662 10.6434 18.8488 11.2162 20.2905 11.2162Z" fill="#E9ECEF"></path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.8101 22.0879C9.54149 21.5223 9.40752 20.9021 9.41872 20.276C9.41872 17.8208 10.6509 15.2931 12.9267 13.5355C11.7907 13.1855 10.6073 13.0143 9.41872 13.0281C2.17085 13.0281 0.358887 18.464 0.358887 20.276C0.358887 22.0879 2.17085 22.0879 2.17085 22.0879H9.8101Z" fill="#E9ECEF"></path>
+                                                    <path d="M8.51273 11.2162C9.71414 11.2162 10.8663 10.7389 11.7159 9.88937C12.5654 9.03985 13.0426 7.88765 13.0426 6.68624C13.0426 5.48483 12.5654 4.33263 11.7159 3.48311C10.8663 2.63358 9.71414 2.15633 8.51273 2.15633C7.31132 2.15633 6.15912 2.63358 5.3096 3.48311C4.46008 4.33263 3.98282 5.48483 3.98282 6.68624C3.98282 7.88765 4.46008 9.03985 5.3096 9.88937C6.15912 10.7389 7.31132 11.2162 8.51273 11.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+    
+                                                48/128
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <div class="card-profile d-flex justify-content-between align-items-center gap-2">
+                                        <img src="./assets/images/profile.png" alt="img" class="img-fluid rounded-circle">
+                                        <div class="d-flex flex-column gap-1">
+                                            <p class="profile-label">Organized by</p>
+                                            <h6 class="profile-name fw-bolder text-white">ODSGAMER</h6>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success">View Challenge</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tournament-card 3 -->
+                        <div class="col">
+                            <div class="tournament-card position-relative card bg-transparent border-0 rounded-4 overflow-hidden">
+                                <div class="top-bar w-100 text-center">
+                                    <span class="ribbon">Entry fee | N10,000</span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <img src="./assets/images/Badges-1.png" alt="img" class="img-fluid">
+                                        <div class="d-flex flex-column gap-2">
+                                            <p class="tournament-time-table">AUG 20 - Ending at 6:00 AM</p>
+                                            <h3 class="tournament-game-name">Call of Duty : Knockout 2023</h3>
+                                            <div class="d-flex gap-2">
+                                                <span class="badge">COD WarZone</span>
+                                                <span class="badge">Mobile</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tournament-menu d-flex justify-content-center gap-4">
+                                        <div class="menu-items">
+                                            <p class="menu-title">Prize Pool</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_202_5300)">
+                                                        <path d="M4.64939 1.58207C4.64939 1.34179 4.74484 1.11135 4.91474 0.941443C5.08465 0.771538 5.31509 0.676086 5.55537 0.676086H23.675C23.9153 0.676086 24.1458 0.771538 24.3157 0.941443C24.4856 1.11135 24.581 1.34179 24.581 1.58207C24.581 2.55691 24.5593 3.48463 24.5194 4.36525C25.2354 4.48381 25.9203 4.74453 26.5339 5.13204C27.1475 5.51955 27.6773 6.026 28.0921 6.62152C28.5068 7.21705 28.7981 7.8896 28.9488 8.5995C29.0995 9.3094 29.1065 10.0423 28.9694 10.7549C28.8323 11.4676 28.5539 12.1456 28.1506 12.7489C27.7473 13.3523 27.2273 13.8687 26.6212 14.2679C26.0151 14.6671 25.3353 14.9408 24.6217 15.073C23.9081 15.2053 23.1753 15.1932 22.4664 15.0377C21.035 18.417 19.0636 20.0696 17.3331 20.4936V24.431L19.9152 25.076C20.2667 25.163 20.5983 25.3206 20.8882 25.5381L24.2186 28.0368C24.3707 28.1509 24.4831 28.3099 24.5398 28.4914C24.5965 28.6729 24.5946 28.8677 24.5345 29.0481C24.4744 29.2284 24.359 29.3853 24.2048 29.4965C24.0505 29.6077 23.8652 29.6675 23.675 29.6675H5.55537C5.36522 29.6675 5.17989 29.6077 5.02563 29.4965C4.87138 29.3853 4.75601 29.2284 4.69588 29.0481C4.63575 28.8677 4.6339 28.6729 4.6906 28.4914C4.74729 28.3099 4.85966 28.1509 5.01178 28.0368L8.34217 25.5381C8.63209 25.3206 8.96368 25.163 9.3152 25.076L11.8973 24.431V20.4936C10.1668 20.0696 8.19541 18.417 6.76395 15.0359C6.05472 15.1923 5.32135 15.2049 4.60715 15.0731C3.89295 14.9413 3.2124 14.6678 2.60569 14.2686C1.99899 13.8694 1.47843 13.3526 1.07475 12.7489C0.67108 12.1452 0.392481 11.4667 0.25541 10.7534C0.118338 10.0402 0.125574 9.3068 0.276689 8.59643C0.427804 7.88607 0.719735 7.21319 1.13524 6.61753C1.55075 6.02187 2.0814 5.51552 2.69586 5.12836C3.31033 4.74121 3.99614 4.48112 4.71281 4.36344C4.67015 3.43693 4.649 2.50956 4.64939 1.58207ZM4.82877 6.18446C3.88326 6.35746 3.04521 6.89898 2.49896 7.68989C1.95272 8.4808 1.74303 9.4563 1.91604 10.4018C2.08904 11.3473 2.63056 12.1854 3.42147 12.7316C4.21237 13.2779 5.18788 13.4875 6.13339 13.3145C5.53 11.412 5.06795 9.06368 4.82877 6.18446ZM23.0988 13.3145C24.0443 13.4875 25.0198 13.2779 25.8107 12.7316C26.6017 12.1854 27.1432 11.3473 27.3162 10.4018C27.4892 9.4563 27.2795 8.4808 26.7332 7.68989C26.187 6.89898 25.3489 6.35746 24.4034 6.18446C24.1624 9.06549 23.7004 11.412 23.0988 13.3145Z" fill="#E9ECEF"></path>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_5300">
+                                                            <rect width="28.9915" height="28.9915" fill="white" transform="translate(0.119629 0.676086)"></rect>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                NGN100K
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Team Size</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.79488 26.0879C5.79488 26.0879 3.98291 26.0879 3.98291 24.276C3.98291 22.464 5.79488 17.0281 14.8547 17.0281C23.9145 17.0281 25.7265 22.464 25.7265 24.276C25.7265 26.0879 23.9145 26.0879 23.9145 26.0879H5.79488ZM14.8547 15.2162C16.2964 15.2162 17.679 14.6434 18.6985 13.624C19.7179 12.6046 20.2906 11.2219 20.2906 9.78026C20.2906 8.33857 19.7179 6.95593 18.6985 5.9365C17.679 4.91707 16.2964 4.34436 14.8547 4.34436C13.413 4.34436 12.0304 4.91707 11.0109 5.9365C9.99152 6.95593 9.41881 8.33857 9.41881 9.78026C9.41881 11.2219 9.99152 12.6046 11.0109 13.624C12.0304 14.6434 13.413 15.2162 14.8547 15.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+                                                3VS3
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Participants</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0426 22.0879C13.0426 22.0879 11.2307 22.0879 11.2307 20.276C11.2307 18.464 13.0426 13.0281 20.2905 13.0281C27.5384 13.0281 29.3503 18.464 29.3503 20.276C29.3503 22.0879 27.5384 22.0879 27.5384 22.0879H13.0426ZM20.2905 11.2162C21.7322 11.2162 23.1148 10.6434 24.1343 9.62402C25.1537 8.60459 25.7264 7.22195 25.7264 5.78026C25.7264 4.33857 25.1537 2.95593 24.1343 1.9365C23.1148 0.917069 21.7322 0.34436 20.2905 0.34436C18.8488 0.34436 17.4662 0.917069 16.4467 1.9365C15.4273 2.95593 14.8546 4.33857 14.8546 5.78026C14.8546 7.22195 15.4273 8.60459 16.4467 9.62402C17.4662 10.6434 18.8488 11.2162 20.2905 11.2162Z" fill="#E9ECEF"></path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.8101 22.0879C9.54149 21.5223 9.40752 20.9021 9.41872 20.276C9.41872 17.8208 10.6509 15.2931 12.9267 13.5355C11.7907 13.1855 10.6073 13.0143 9.41872 13.0281C2.17085 13.0281 0.358887 18.464 0.358887 20.276C0.358887 22.0879 2.17085 22.0879 2.17085 22.0879H9.8101Z" fill="#E9ECEF"></path>
+                                                    <path d="M8.51273 11.2162C9.71414 11.2162 10.8663 10.7389 11.7159 9.88937C12.5654 9.03985 13.0426 7.88765 13.0426 6.68624C13.0426 5.48483 12.5654 4.33263 11.7159 3.48311C10.8663 2.63358 9.71414 2.15633 8.51273 2.15633C7.31132 2.15633 6.15912 2.63358 5.3096 3.48311C4.46008 4.33263 3.98282 5.48483 3.98282 6.68624C3.98282 7.88765 4.46008 9.03985 5.3096 9.88937C6.15912 10.7389 7.31132 11.2162 8.51273 11.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+    
+                                                48/128
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <div class="card-profile d-flex justify-content-between align-items-center gap-2">
+                                        <img src="./assets/images/profile.png" alt="img" class="img-fluid rounded-circle">
+                                        <div class="d-flex flex-column gap-1">
+                                            <p class="profile-label">Organized by</p>
+                                            <h6 class="profile-name fw-bolder text-white">ODSGAMER</h6>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success">View Challenge</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tournament-card 4 -->
+                        <div class="col">
+                            <div class="tournament-card position-relative card bg-transparent border-0 rounded-4 overflow-hidden">
+                                <div class="top-bar w-100 text-center">
+                                    <span class="ribbon">Entry fee | N10,000</span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <img src="./assets/images/Badges-1.png" alt="img" class="img-fluid">
+                                        <div class="d-flex flex-column gap-2">
+                                            <p class="tournament-time-table">AUG 20 - Ending at 6:00 AM</p>
+                                            <h3 class="tournament-game-name">Call of Duty : Knockout 2023</h3>
+                                            <div class="d-flex gap-2">
+                                                <span class="badge">COD WarZone</span>
+                                                <span class="badge">Mobile</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tournament-menu d-flex justify-content-center gap-4">
+                                        <div class="menu-items">
+                                            <p class="menu-title">Prize Pool</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_202_5300)">
+                                                        <path d="M4.64939 1.58207C4.64939 1.34179 4.74484 1.11135 4.91474 0.941443C5.08465 0.771538 5.31509 0.676086 5.55537 0.676086H23.675C23.9153 0.676086 24.1458 0.771538 24.3157 0.941443C24.4856 1.11135 24.581 1.34179 24.581 1.58207C24.581 2.55691 24.5593 3.48463 24.5194 4.36525C25.2354 4.48381 25.9203 4.74453 26.5339 5.13204C27.1475 5.51955 27.6773 6.026 28.0921 6.62152C28.5068 7.21705 28.7981 7.8896 28.9488 8.5995C29.0995 9.3094 29.1065 10.0423 28.9694 10.7549C28.8323 11.4676 28.5539 12.1456 28.1506 12.7489C27.7473 13.3523 27.2273 13.8687 26.6212 14.2679C26.0151 14.6671 25.3353 14.9408 24.6217 15.073C23.9081 15.2053 23.1753 15.1932 22.4664 15.0377C21.035 18.417 19.0636 20.0696 17.3331 20.4936V24.431L19.9152 25.076C20.2667 25.163 20.5983 25.3206 20.8882 25.5381L24.2186 28.0368C24.3707 28.1509 24.4831 28.3099 24.5398 28.4914C24.5965 28.6729 24.5946 28.8677 24.5345 29.0481C24.4744 29.2284 24.359 29.3853 24.2048 29.4965C24.0505 29.6077 23.8652 29.6675 23.675 29.6675H5.55537C5.36522 29.6675 5.17989 29.6077 5.02563 29.4965C4.87138 29.3853 4.75601 29.2284 4.69588 29.0481C4.63575 28.8677 4.6339 28.6729 4.6906 28.4914C4.74729 28.3099 4.85966 28.1509 5.01178 28.0368L8.34217 25.5381C8.63209 25.3206 8.96368 25.163 9.3152 25.076L11.8973 24.431V20.4936C10.1668 20.0696 8.19541 18.417 6.76395 15.0359C6.05472 15.1923 5.32135 15.2049 4.60715 15.0731C3.89295 14.9413 3.2124 14.6678 2.60569 14.2686C1.99899 13.8694 1.47843 13.3526 1.07475 12.7489C0.67108 12.1452 0.392481 11.4667 0.25541 10.7534C0.118338 10.0402 0.125574 9.3068 0.276689 8.59643C0.427804 7.88607 0.719735 7.21319 1.13524 6.61753C1.55075 6.02187 2.0814 5.51552 2.69586 5.12836C3.31033 4.74121 3.99614 4.48112 4.71281 4.36344C4.67015 3.43693 4.649 2.50956 4.64939 1.58207ZM4.82877 6.18446C3.88326 6.35746 3.04521 6.89898 2.49896 7.68989C1.95272 8.4808 1.74303 9.4563 1.91604 10.4018C2.08904 11.3473 2.63056 12.1854 3.42147 12.7316C4.21237 13.2779 5.18788 13.4875 6.13339 13.3145C5.53 11.412 5.06795 9.06368 4.82877 6.18446ZM23.0988 13.3145C24.0443 13.4875 25.0198 13.2779 25.8107 12.7316C26.6017 12.1854 27.1432 11.3473 27.3162 10.4018C27.4892 9.4563 27.2795 8.4808 26.7332 7.68989C26.187 6.89898 25.3489 6.35746 24.4034 6.18446C24.1624 9.06549 23.7004 11.412 23.0988 13.3145Z" fill="#E9ECEF"></path>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_5300">
+                                                            <rect width="28.9915" height="28.9915" fill="white" transform="translate(0.119629 0.676086)"></rect>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                NGN100K
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Team Size</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.79488 26.0879C5.79488 26.0879 3.98291 26.0879 3.98291 24.276C3.98291 22.464 5.79488 17.0281 14.8547 17.0281C23.9145 17.0281 25.7265 22.464 25.7265 24.276C25.7265 26.0879 23.9145 26.0879 23.9145 26.0879H5.79488ZM14.8547 15.2162C16.2964 15.2162 17.679 14.6434 18.6985 13.624C19.7179 12.6046 20.2906 11.2219 20.2906 9.78026C20.2906 8.33857 19.7179 6.95593 18.6985 5.9365C17.679 4.91707 16.2964 4.34436 14.8547 4.34436C13.413 4.34436 12.0304 4.91707 11.0109 5.9365C9.99152 6.95593 9.41881 8.33857 9.41881 9.78026C9.41881 11.2219 9.99152 12.6046 11.0109 13.624C12.0304 14.6434 13.413 15.2162 14.8547 15.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+                                                3VS3
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Participants</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0426 22.0879C13.0426 22.0879 11.2307 22.0879 11.2307 20.276C11.2307 18.464 13.0426 13.0281 20.2905 13.0281C27.5384 13.0281 29.3503 18.464 29.3503 20.276C29.3503 22.0879 27.5384 22.0879 27.5384 22.0879H13.0426ZM20.2905 11.2162C21.7322 11.2162 23.1148 10.6434 24.1343 9.62402C25.1537 8.60459 25.7264 7.22195 25.7264 5.78026C25.7264 4.33857 25.1537 2.95593 24.1343 1.9365C23.1148 0.917069 21.7322 0.34436 20.2905 0.34436C18.8488 0.34436 17.4662 0.917069 16.4467 1.9365C15.4273 2.95593 14.8546 4.33857 14.8546 5.78026C14.8546 7.22195 15.4273 8.60459 16.4467 9.62402C17.4662 10.6434 18.8488 11.2162 20.2905 11.2162Z" fill="#E9ECEF"></path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.8101 22.0879C9.54149 21.5223 9.40752 20.9021 9.41872 20.276C9.41872 17.8208 10.6509 15.2931 12.9267 13.5355C11.7907 13.1855 10.6073 13.0143 9.41872 13.0281C2.17085 13.0281 0.358887 18.464 0.358887 20.276C0.358887 22.0879 2.17085 22.0879 2.17085 22.0879H9.8101Z" fill="#E9ECEF"></path>
+                                                    <path d="M8.51273 11.2162C9.71414 11.2162 10.8663 10.7389 11.7159 9.88937C12.5654 9.03985 13.0426 7.88765 13.0426 6.68624C13.0426 5.48483 12.5654 4.33263 11.7159 3.48311C10.8663 2.63358 9.71414 2.15633 8.51273 2.15633C7.31132 2.15633 6.15912 2.63358 5.3096 3.48311C4.46008 4.33263 3.98282 5.48483 3.98282 6.68624C3.98282 7.88765 4.46008 9.03985 5.3096 9.88937C6.15912 10.7389 7.31132 11.2162 8.51273 11.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+    
+                                                48/128
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <div class="card-profile d-flex justify-content-between align-items-center gap-2">
+                                        <img src="./assets/images/profile.png" alt="img" class="img-fluid rounded-circle">
+                                        <div class="d-flex flex-column gap-1">
+                                            <p class="profile-label">Organized by</p>
+                                            <h6 class="profile-name fw-bolder text-white">ODSGAMER</h6>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success">View Challenge</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tournament-card 5 -->
+                        <div class="col">
+                            <div class="tournament-card position-relative card bg-transparent border-0 rounded-4 overflow-hidden">
+                                <div class="top-bar w-100 text-center">
+                                    <span class="ribbon">Entry fee | N10,000</span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <img src="./assets/images/Badges-1.png" alt="img" class="img-fluid">
+                                        <div class="d-flex flex-column gap-2">
+                                            <p class="tournament-time-table">AUG 20 - Ending at 6:00 AM</p>
+                                            <h3 class="tournament-game-name">Call of Duty : Knockout 2023</h3>
+                                            <div class="d-flex gap-2">
+                                                <span class="badge">COD WarZone</span>
+                                                <span class="badge">Mobile</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tournament-menu d-flex justify-content-center gap-4">
+                                        <div class="menu-items">
+                                            <p class="menu-title">Prize Pool</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_202_5300)">
+                                                        <path d="M4.64939 1.58207C4.64939 1.34179 4.74484 1.11135 4.91474 0.941443C5.08465 0.771538 5.31509 0.676086 5.55537 0.676086H23.675C23.9153 0.676086 24.1458 0.771538 24.3157 0.941443C24.4856 1.11135 24.581 1.34179 24.581 1.58207C24.581 2.55691 24.5593 3.48463 24.5194 4.36525C25.2354 4.48381 25.9203 4.74453 26.5339 5.13204C27.1475 5.51955 27.6773 6.026 28.0921 6.62152C28.5068 7.21705 28.7981 7.8896 28.9488 8.5995C29.0995 9.3094 29.1065 10.0423 28.9694 10.7549C28.8323 11.4676 28.5539 12.1456 28.1506 12.7489C27.7473 13.3523 27.2273 13.8687 26.6212 14.2679C26.0151 14.6671 25.3353 14.9408 24.6217 15.073C23.9081 15.2053 23.1753 15.1932 22.4664 15.0377C21.035 18.417 19.0636 20.0696 17.3331 20.4936V24.431L19.9152 25.076C20.2667 25.163 20.5983 25.3206 20.8882 25.5381L24.2186 28.0368C24.3707 28.1509 24.4831 28.3099 24.5398 28.4914C24.5965 28.6729 24.5946 28.8677 24.5345 29.0481C24.4744 29.2284 24.359 29.3853 24.2048 29.4965C24.0505 29.6077 23.8652 29.6675 23.675 29.6675H5.55537C5.36522 29.6675 5.17989 29.6077 5.02563 29.4965C4.87138 29.3853 4.75601 29.2284 4.69588 29.0481C4.63575 28.8677 4.6339 28.6729 4.6906 28.4914C4.74729 28.3099 4.85966 28.1509 5.01178 28.0368L8.34217 25.5381C8.63209 25.3206 8.96368 25.163 9.3152 25.076L11.8973 24.431V20.4936C10.1668 20.0696 8.19541 18.417 6.76395 15.0359C6.05472 15.1923 5.32135 15.2049 4.60715 15.0731C3.89295 14.9413 3.2124 14.6678 2.60569 14.2686C1.99899 13.8694 1.47843 13.3526 1.07475 12.7489C0.67108 12.1452 0.392481 11.4667 0.25541 10.7534C0.118338 10.0402 0.125574 9.3068 0.276689 8.59643C0.427804 7.88607 0.719735 7.21319 1.13524 6.61753C1.55075 6.02187 2.0814 5.51552 2.69586 5.12836C3.31033 4.74121 3.99614 4.48112 4.71281 4.36344C4.67015 3.43693 4.649 2.50956 4.64939 1.58207ZM4.82877 6.18446C3.88326 6.35746 3.04521 6.89898 2.49896 7.68989C1.95272 8.4808 1.74303 9.4563 1.91604 10.4018C2.08904 11.3473 2.63056 12.1854 3.42147 12.7316C4.21237 13.2779 5.18788 13.4875 6.13339 13.3145C5.53 11.412 5.06795 9.06368 4.82877 6.18446ZM23.0988 13.3145C24.0443 13.4875 25.0198 13.2779 25.8107 12.7316C26.6017 12.1854 27.1432 11.3473 27.3162 10.4018C27.4892 9.4563 27.2795 8.4808 26.7332 7.68989C26.187 6.89898 25.3489 6.35746 24.4034 6.18446C24.1624 9.06549 23.7004 11.412 23.0988 13.3145Z" fill="#E9ECEF"></path>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_5300">
+                                                            <rect width="28.9915" height="28.9915" fill="white" transform="translate(0.119629 0.676086)"></rect>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                NGN100K
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Team Size</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.79488 26.0879C5.79488 26.0879 3.98291 26.0879 3.98291 24.276C3.98291 22.464 5.79488 17.0281 14.8547 17.0281C23.9145 17.0281 25.7265 22.464 25.7265 24.276C25.7265 26.0879 23.9145 26.0879 23.9145 26.0879H5.79488ZM14.8547 15.2162C16.2964 15.2162 17.679 14.6434 18.6985 13.624C19.7179 12.6046 20.2906 11.2219 20.2906 9.78026C20.2906 8.33857 19.7179 6.95593 18.6985 5.9365C17.679 4.91707 16.2964 4.34436 14.8547 4.34436C13.413 4.34436 12.0304 4.91707 11.0109 5.9365C9.99152 6.95593 9.41881 8.33857 9.41881 9.78026C9.41881 11.2219 9.99152 12.6046 11.0109 13.624C12.0304 14.6434 13.413 15.2162 14.8547 15.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+                                                3VS3
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Participants</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0426 22.0879C13.0426 22.0879 11.2307 22.0879 11.2307 20.276C11.2307 18.464 13.0426 13.0281 20.2905 13.0281C27.5384 13.0281 29.3503 18.464 29.3503 20.276C29.3503 22.0879 27.5384 22.0879 27.5384 22.0879H13.0426ZM20.2905 11.2162C21.7322 11.2162 23.1148 10.6434 24.1343 9.62402C25.1537 8.60459 25.7264 7.22195 25.7264 5.78026C25.7264 4.33857 25.1537 2.95593 24.1343 1.9365C23.1148 0.917069 21.7322 0.34436 20.2905 0.34436C18.8488 0.34436 17.4662 0.917069 16.4467 1.9365C15.4273 2.95593 14.8546 4.33857 14.8546 5.78026C14.8546 7.22195 15.4273 8.60459 16.4467 9.62402C17.4662 10.6434 18.8488 11.2162 20.2905 11.2162Z" fill="#E9ECEF"></path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.8101 22.0879C9.54149 21.5223 9.40752 20.9021 9.41872 20.276C9.41872 17.8208 10.6509 15.2931 12.9267 13.5355C11.7907 13.1855 10.6073 13.0143 9.41872 13.0281C2.17085 13.0281 0.358887 18.464 0.358887 20.276C0.358887 22.0879 2.17085 22.0879 2.17085 22.0879H9.8101Z" fill="#E9ECEF"></path>
+                                                    <path d="M8.51273 11.2162C9.71414 11.2162 10.8663 10.7389 11.7159 9.88937C12.5654 9.03985 13.0426 7.88765 13.0426 6.68624C13.0426 5.48483 12.5654 4.33263 11.7159 3.48311C10.8663 2.63358 9.71414 2.15633 8.51273 2.15633C7.31132 2.15633 6.15912 2.63358 5.3096 3.48311C4.46008 4.33263 3.98282 5.48483 3.98282 6.68624C3.98282 7.88765 4.46008 9.03985 5.3096 9.88937C6.15912 10.7389 7.31132 11.2162 8.51273 11.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+    
+                                                48/128
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <div class="card-profile d-flex justify-content-between align-items-center gap-2">
+                                        <img src="./assets/images/profile.png" alt="img" class="img-fluid rounded-circle">
+                                        <div class="d-flex flex-column gap-1">
+                                            <p class="profile-label">Organized by</p>
+                                            <h6 class="profile-name fw-bolder text-white">ODSGAMER</h6>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success">View Challenge</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tournament-card 6 -->
+                        <div class="col">
+                            <div class="tournament-card position-relative card bg-transparent border-0 rounded-4 overflow-hidden">
+                                <div class="top-bar w-100 text-center">
+                                    <span class="ribbon">Entry fee | N10,000</span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <img src="./assets/images/Badges-1.png" alt="img" class="img-fluid">
+                                        <div class="d-flex flex-column gap-2">
+                                            <p class="tournament-time-table">AUG 20 - Ending at 6:00 AM</p>
+                                            <h3 class="tournament-game-name">Call of Duty : Knockout 2023</h3>
+                                            <div class="d-flex gap-2">
+                                                <span class="badge">COD WarZone</span>
+                                                <span class="badge">Mobile</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tournament-menu d-flex justify-content-center gap-4">
+                                        <div class="menu-items">
+                                            <p class="menu-title">Prize Pool</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_202_5300)">
+                                                        <path d="M4.64939 1.58207C4.64939 1.34179 4.74484 1.11135 4.91474 0.941443C5.08465 0.771538 5.31509 0.676086 5.55537 0.676086H23.675C23.9153 0.676086 24.1458 0.771538 24.3157 0.941443C24.4856 1.11135 24.581 1.34179 24.581 1.58207C24.581 2.55691 24.5593 3.48463 24.5194 4.36525C25.2354 4.48381 25.9203 4.74453 26.5339 5.13204C27.1475 5.51955 27.6773 6.026 28.0921 6.62152C28.5068 7.21705 28.7981 7.8896 28.9488 8.5995C29.0995 9.3094 29.1065 10.0423 28.9694 10.7549C28.8323 11.4676 28.5539 12.1456 28.1506 12.7489C27.7473 13.3523 27.2273 13.8687 26.6212 14.2679C26.0151 14.6671 25.3353 14.9408 24.6217 15.073C23.9081 15.2053 23.1753 15.1932 22.4664 15.0377C21.035 18.417 19.0636 20.0696 17.3331 20.4936V24.431L19.9152 25.076C20.2667 25.163 20.5983 25.3206 20.8882 25.5381L24.2186 28.0368C24.3707 28.1509 24.4831 28.3099 24.5398 28.4914C24.5965 28.6729 24.5946 28.8677 24.5345 29.0481C24.4744 29.2284 24.359 29.3853 24.2048 29.4965C24.0505 29.6077 23.8652 29.6675 23.675 29.6675H5.55537C5.36522 29.6675 5.17989 29.6077 5.02563 29.4965C4.87138 29.3853 4.75601 29.2284 4.69588 29.0481C4.63575 28.8677 4.6339 28.6729 4.6906 28.4914C4.74729 28.3099 4.85966 28.1509 5.01178 28.0368L8.34217 25.5381C8.63209 25.3206 8.96368 25.163 9.3152 25.076L11.8973 24.431V20.4936C10.1668 20.0696 8.19541 18.417 6.76395 15.0359C6.05472 15.1923 5.32135 15.2049 4.60715 15.0731C3.89295 14.9413 3.2124 14.6678 2.60569 14.2686C1.99899 13.8694 1.47843 13.3526 1.07475 12.7489C0.67108 12.1452 0.392481 11.4667 0.25541 10.7534C0.118338 10.0402 0.125574 9.3068 0.276689 8.59643C0.427804 7.88607 0.719735 7.21319 1.13524 6.61753C1.55075 6.02187 2.0814 5.51552 2.69586 5.12836C3.31033 4.74121 3.99614 4.48112 4.71281 4.36344C4.67015 3.43693 4.649 2.50956 4.64939 1.58207ZM4.82877 6.18446C3.88326 6.35746 3.04521 6.89898 2.49896 7.68989C1.95272 8.4808 1.74303 9.4563 1.91604 10.4018C2.08904 11.3473 2.63056 12.1854 3.42147 12.7316C4.21237 13.2779 5.18788 13.4875 6.13339 13.3145C5.53 11.412 5.06795 9.06368 4.82877 6.18446ZM23.0988 13.3145C24.0443 13.4875 25.0198 13.2779 25.8107 12.7316C26.6017 12.1854 27.1432 11.3473 27.3162 10.4018C27.4892 9.4563 27.2795 8.4808 26.7332 7.68989C26.187 6.89898 25.3489 6.35746 24.4034 6.18446C24.1624 9.06549 23.7004 11.412 23.0988 13.3145Z" fill="#E9ECEF"></path>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_5300">
+                                                            <rect width="28.9915" height="28.9915" fill="white" transform="translate(0.119629 0.676086)"></rect>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                NGN100K
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Team Size</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.79488 26.0879C5.79488 26.0879 3.98291 26.0879 3.98291 24.276C3.98291 22.464 5.79488 17.0281 14.8547 17.0281C23.9145 17.0281 25.7265 22.464 25.7265 24.276C25.7265 26.0879 23.9145 26.0879 23.9145 26.0879H5.79488ZM14.8547 15.2162C16.2964 15.2162 17.679 14.6434 18.6985 13.624C19.7179 12.6046 20.2906 11.2219 20.2906 9.78026C20.2906 8.33857 19.7179 6.95593 18.6985 5.9365C17.679 4.91707 16.2964 4.34436 14.8547 4.34436C13.413 4.34436 12.0304 4.91707 11.0109 5.9365C9.99152 6.95593 9.41881 8.33857 9.41881 9.78026C9.41881 11.2219 9.99152 12.6046 11.0109 13.624C12.0304 14.6434 13.413 15.2162 14.8547 15.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+                                                3VS3
+                                            </p>
+                                        </div>
+                                        <div class="menu-items">
+                                            <p class="menu-title">Participants</p>
+                                            <p class="menu-name">
+                                                <svg width="12" height="12" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13.0426 22.0879C13.0426 22.0879 11.2307 22.0879 11.2307 20.276C11.2307 18.464 13.0426 13.0281 20.2905 13.0281C27.5384 13.0281 29.3503 18.464 29.3503 20.276C29.3503 22.0879 27.5384 22.0879 27.5384 22.0879H13.0426ZM20.2905 11.2162C21.7322 11.2162 23.1148 10.6434 24.1343 9.62402C25.1537 8.60459 25.7264 7.22195 25.7264 5.78026C25.7264 4.33857 25.1537 2.95593 24.1343 1.9365C23.1148 0.917069 21.7322 0.34436 20.2905 0.34436C18.8488 0.34436 17.4662 0.917069 16.4467 1.9365C15.4273 2.95593 14.8546 4.33857 14.8546 5.78026C14.8546 7.22195 15.4273 8.60459 16.4467 9.62402C17.4662 10.6434 18.8488 11.2162 20.2905 11.2162Z" fill="#E9ECEF"></path>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.8101 22.0879C9.54149 21.5223 9.40752 20.9021 9.41872 20.276C9.41872 17.8208 10.6509 15.2931 12.9267 13.5355C11.7907 13.1855 10.6073 13.0143 9.41872 13.0281C2.17085 13.0281 0.358887 18.464 0.358887 20.276C0.358887 22.0879 2.17085 22.0879 2.17085 22.0879H9.8101Z" fill="#E9ECEF"></path>
+                                                    <path d="M8.51273 11.2162C9.71414 11.2162 10.8663 10.7389 11.7159 9.88937C12.5654 9.03985 13.0426 7.88765 13.0426 6.68624C13.0426 5.48483 12.5654 4.33263 11.7159 3.48311C10.8663 2.63358 9.71414 2.15633 8.51273 2.15633C7.31132 2.15633 6.15912 2.63358 5.3096 3.48311C4.46008 4.33263 3.98282 5.48483 3.98282 6.68624C3.98282 7.88765 4.46008 9.03985 5.3096 9.88937C6.15912 10.7389 7.31132 11.2162 8.51273 11.2162Z" fill="#E9ECEF"></path>
+                                                </svg>
+    
+                                                48/128
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <div class="card-profile d-flex justify-content-between align-items-center gap-2">
+                                        <img src="./assets/images/profile.png" alt="img" class="img-fluid rounded-circle">
+                                        <div class="d-flex flex-column gap-1">
+                                            <p class="profile-label">Organized by</p>
+                                            <h6 class="profile-name fw-bolder text-white">ODSGAMER</h6>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-success">View Challenge</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- content end -->
@@ -875,8 +1108,9 @@
 
 
     <!-- scripts -->
-
+    <script src="./assets/js/index.js"></script>
     <script src="./assets/js/bootstrape/bootstrap.bundle.js"></script>
+    <script src="./assets/plugin/splide/splide.min.js"></script>
 
 </body>
 

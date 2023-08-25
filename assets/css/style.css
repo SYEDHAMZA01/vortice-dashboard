@@ -109,6 +109,28 @@ a {
     background-position: 95% 50% !important;
 }
 
+.form-label {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.form-control {
+    height: 48px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid var(--color-white);
+    background-color: var(--transparent) !important;
+    color: var(--color-white) !important;
+    box-shadow: none !important;
+}
+
+.form-control ::-webkit-input-placeholder {
+    color: #CED4DA !important;
+}
+
 .direction-row {
     display: flex;
     align-items: center;
@@ -336,6 +358,27 @@ a {
     gap: 15px;
     background-color: var(--color-2);
     padding: 15px;
+    border-radius: 16px 16px 0 0;
+}
+
+.tournament-card .top-bar {
+    margin-bottom: -12px;
+    z-index: 1;
+}
+
+.tournament-card .top-bar .ribbon {
+    width: 205px;
+    height: 40px;
+    padding: 6px 13px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #51EF59;
+    background: #14171F;
+
 }
 
 .tournament-card .tournament-time-table,
@@ -402,6 +445,38 @@ a {
     font-size: 10px;
     font-weight: 600;
     line-height: 15px;
+    letter-spacing: 0em;
+}
+
+.tournament-content .game-type {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.tournament-content .more-info-box {
+    padding: 18px 10px;
+    border-radius: 16px;
+    background: #14171F;
+}
+
+.tournament-content .info-box .info-name {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 14px;
+    color: #ADB5BD;
+}
+
+.tournament-content .info-box .info-count {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
     letter-spacing: 0em;
 }
 
@@ -710,7 +785,8 @@ a {
     color: var(--color-white);
 }
 
-.profile-page .user-name {
+.profile-page .user-name,
+.tournament-content .game-name {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
@@ -752,7 +828,7 @@ a {
     letter-spacing: 0em;
 }
 
-.profile-page .profile-content{
+.profile-page .profile-content {
     background-color: #141218;
 }
 
@@ -783,8 +859,12 @@ a {
     margin-bottom: 8px;
 }
 
-.profile-page .info-tabs{
+.profile-page .info-tabs {
     max-width: 100%;
+}
+
+.profile-page .tab-pane {
+    padding: 16px;
 }
 
 @media screen and (max-width: 1092px) {
@@ -863,6 +943,11 @@ a {
 
     .navbar .nav-item .nav-link svg {
         width: 20px;
+    }
+
+    .profile-page .btn {
+        padding: 5px;
+        font-size: 12px;
     }
 
     /* .navbar-brand img {
