@@ -127,7 +127,7 @@ a {
     box-shadow: none !important;
 }
 
-.form-control ::-webkit-input-placeholder {
+.form-control::-webkit-input-placeholder {
     color: #CED4DA !important;
 }
 
